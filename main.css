@@ -1,0 +1,85 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('pic/pexels-photo-3815722.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'El Messiri', sans-serif;
+}
+.head, .links {
+  text-align: center;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 2%;
+  box-shadow: hsla(0, 0%, 0%, .7) 10px 10px 80px;
+  width: 550px;
+  max-width: calc(100vw - 10px);
+  height: 450px;
+  text-align: justify;
+  cursor: pointer;
+  transition: 0.4s;
+  position: relative;
+}
+.profile-card:hover{
+  transform: scale(1.1);
+}
+.head{
+  width: 50%;
+  height: 50%;
+}
+.profile-image, .name-headline{
+  position: absolute;
+  }
+.profile-image{
+  top: 30px;
+  left: 40px;
+}
+.name-headline{
+  top: 40px;
+  right: 40px;
+}
+img {
+  width: 180px;
+  height: 190px;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 2%;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+h1{
+  text-transform: uppercase;
+}
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+.content {
+  padding: 5% 10%;
+}
+a{
+  color: hsl(0, 0%, 30%);
+}
+a:hover{
+  color: lightblue;
+}
+.fa{
+  padding: 0 3%;;
+}
